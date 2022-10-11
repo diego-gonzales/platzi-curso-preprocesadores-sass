@@ -1,0 +1,25 @@
+.ubicacion--perfil {
+  width: 50%;
+  height: 90px;
+  margin: 30px auto;
+  padding: 20px 0 0 50px;
+  @include box;
+
+  i {
+    display: block;
+    float: left;
+    padding-right: 10px;
+    font-size: 40px;
+    color: $color-extra;
+  }
+  h2 {
+    font-weight: 300;
+    font-size: 20px;
+    @include titles($font2);
+  }
+  h3 {
+    font-size: 12px;
+    @include titles($font2);
+    color: setOpacity($color-primary, 0.5);
+  }
+}
